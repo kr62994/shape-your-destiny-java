@@ -58,7 +58,7 @@ class RightTriangleTest {
 
 
     @Test
-    void TestPolygon() {
+    void testPolygon() {
         Polygon polygon = triangle;
 
         assertEquals(3, polygon.numberOfSides());
