@@ -71,4 +71,11 @@ class SquareTest {
         assertEquals(16, parent.getPerimeter(), 0.0001);
         assertEquals(4, parent.numberOfSides());
     }
+
+    @Test
+    void testParallelogram() {
+        Parallelogram parallelogram = square;
+
+        assertEquals(4, parallelogram.numberOfSides());
+    }
 }

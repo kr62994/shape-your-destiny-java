@@ -62,4 +62,13 @@ class RectangleTest {
 
         assertEquals(4, polygon.numberOfSides());
     }
+
+    @Test
+    void testParallelogram() {
+        Parallelogram parallelogram = rectangle;
+        Polygon polygon = parallelogram;
+
+        assertEquals(4, parallelogram.numberOfSides());
+        assertEquals(4, polygon.numberOfSides());
+    }
 }
